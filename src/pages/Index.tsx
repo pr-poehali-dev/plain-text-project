@@ -278,6 +278,141 @@ const Index = () => {
           </p>
         </section>
 
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Как работает Система "Товарный Снайпер" на практике?
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Вы получаете не просто "настройку рекламы". Вы получаете управляемую машину продаж, которая работает на вас 24/7.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Вот что происходит после старта:
+          </p>
+        </section>
+
+        <section className="mb-12 bg-gray-50 p-8 rounded-lg">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">
+            Этап 1: Стратегический фундамент (первая неделя)
+          </h3>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Начинаем с ABC-анализа вашей товарной матрицы.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Разделяем весь ассортимент на три категории:
+          </p>
+          <ul className="space-y-3 mb-6 text-lg text-gray-700 leading-relaxed ml-6">
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span><strong>Группа А</strong> - ваши "чемпионы". 20% товаров, которые дают 80% выручки. На них направляем максимум внимания и бюджета.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span><strong>Группа B</strong> - "рабочие лошадки". 30% товаров, которые приносят стабильный доход. Работаем над повышением их эффективности.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span><strong>Группа C</strong> - "кандидаты на вылет". 50% товаров, которые съедают бюджет, но почти не дают продаж. Отключаем их из рекламы или ищем способы сделать рентабельными.</span>
+            </li>
+          </ul>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Параллельно настраиваю авторскую выгрузку товаров - тот самый "Гипер-Фид".
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Каждый вариант товара становится отдельной позицией. Зелёная подушка 50х50 - отдельная строка со своим изображением, заголовком, ссылкой. Все атрибуты и характеристики на месте. Директ получает чёткие данные и может подобрать 100% релевантный товар под каждый запрос.
+          </p>
+        </section>
+
+        <section className="mb-12 bg-gray-50 p-8 rounded-lg">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">
+            Этап 2: Запуск и калибровка (2-4 недели)
+          </h3>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Создаю гиперсегментированные динамические кампании на основе "Гипер-Фида".
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Запускаю A/B тесты связок "стратегия-цель" для каждой товарной категории. Цель - выйти на идеальную модель: оплата за конверсию с ограничением по ДРР.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Что это значит для вас? Реклама сама снижает показы товаров с низким ROMI и перенаправляет бюджет на позиции с высоким ROMI. Вы не переплачиваете за "балласт". Каждый рубль идёт туда, где приносит максимум.
+          </p>
+        </section>
+
+        <section className="mb-12 bg-gray-50 p-8 rounded-lg">
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">
+            Этап 3: Ежемесячное обслуживание (3 месяца)
+          </h3>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Система запущена. Но это не значит "настроил и забыл".
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Фид живой - товары появляются и заканчиваются, цены меняются, сезонность влияет на спрос. Без постоянного присмотра даже идеально настроенная система начинает деградировать.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Что вы получаете каждый месяц:
+          </p>
+          <ul className="space-y-3 mb-6 text-lg text-gray-700 leading-relaxed ml-6">
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span><strong>Еженедельный спринт-отчёт "Пульс Кампании"</strong>. Каждый понедельник - лаконичный отчёт в инфографике: план/факт по заказам, выручке и ROMI. Никаких простыней с непонятными цифрами. Только то, что важно для бизнеса.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span><strong>Ежемесячный стратегический созвон</strong>. Живой видео-звонок с демонстрацией экрана. Анализируем юнит-экономику, смотрим результаты ABC-анализа, планируем следующий месяц. Вы понимаете, что происходит с вашими деньгами.</span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span><strong>Сервис "Ранний Доступ"</strong>. Я постоянно отслеживаю обновления Директа. Как только появляется новая технология - аккуратно тестирую её на вашем проекте. Вы снимаете сливки раньше конкурентов.</span>
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Посмотрим на Принцип "Зелёной Подушки" в действии
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Вот как выглядит путь вашего клиента после внедрения системы:
+          </p>
+          <div className="bg-gray-50 p-6 rounded-lg text-lg text-gray-700 leading-relaxed space-y-4">
+            <p>Человек вводит в Яндексе: <strong>"зелёная подушка 50х50 купить"</strong></p>
+            <p className="text-center text-2xl">↓</p>
+            <p>Видит объявление с фотографией зелёной подушки 50х50 и ценой</p>
+            <p className="text-center text-2xl">↓</p>
+            <p>Кликает, попадает в карточку зелёной подушки 50х50</p>
+            <p className="text-center text-2xl">↓</p>
+            <p>Видит именно то, что искал. Добавляет в корзину. Оформляет заказ.</p>
+          </div>
+          <p className="text-lg text-gray-700 leading-relaxed mt-6">
+            Никаких разрывов. Никаких "поищите на сайте". Точное попадание - высокая конверсия.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Результаты, которые уже получают клиенты
+          </h2>
+          <div className="bg-gray-50 p-8 rounded-lg">
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Магазин расходников и комплектующих для фрезерных станков с ЧПУ. Сложная ниша, специфический ассортимент.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              <strong>До внедрения системы:</strong> конверсия рекламного трафика - 0.1%. Из тысячи кликов - один заказ.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Как было настроено? По старинке. Ручной сбор ключей, ручное создание объявлений. Ссылки вели на категории и подкатегории. Классический "статичный подход".
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              <strong>После внедрения Системы "Товарный Снайпер":</strong> конверсия выросла до 1%.
+            </p>
+            <p className="text-3xl font-bold text-gray-900 mb-6">
+              Рост в 10 раз.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Те же товары. Тот же сайт. Та же аудитория. Изменился только подход к рекламе.
+            </p>
+          </div>
+        </section>
+
         <div className="mt-16 pt-12 border-t border-gray-300">
           <div className="text-center">
             <Button 
