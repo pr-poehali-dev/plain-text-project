@@ -141,9 +141,9 @@ const Index = () => {
         </section>
 
         <section className="mb-12">
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Яндекс берёт этот фид и пытается подобрать товар под поисковый запрос.
-          </p>
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">
+            Яндекс берёт этот фид и пытается подобрать товар под поисковый запрос
+          </h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Человек вводит: "зелёная подушка 50х50 купить".
           </p>
