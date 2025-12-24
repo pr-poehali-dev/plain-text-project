@@ -198,12 +198,12 @@ const Index = () => {
         </section>
 
         <section className="mb-12 bg-gray-50 p-8 rounded-lg">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">
-            И что примечательно
-          </h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Это не вина Яндекса. Алгоритм работает с тем, что ему дали.
+            И что примечательно.
           </p>
+          <h3 className="text-2xl font-bold text-gray-900 mb-6">
+            Это не вина Яндекса. Алгоритм работает с тем, что ему дали
+          </h3>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Ему дали фид, где шесть разных товаров склеены в один. Он не может показать зелёную подушку 50х50, потому что в фиде её нет как отдельной позиции. Есть только "подушка вообще".
           </p>
