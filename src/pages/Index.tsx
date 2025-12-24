@@ -195,12 +195,12 @@ const Index = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Умножьте на сотни запросов в день. На тысячи товаров с вариантами. Вот куда утекает ваш бюджет.
           </p>
-        </section>
-
-        <section className="mb-12 bg-gray-50 p-8 rounded-lg">
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             И что примечательно.
           </p>
+        </section>
+
+        <section className="mb-12 bg-gray-50 p-8 rounded-lg">
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
             Это не вина Яндекса. Алгоритм работает с тем, что ему дали
           </h3>
