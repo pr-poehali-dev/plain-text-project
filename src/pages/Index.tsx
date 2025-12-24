@@ -497,6 +497,188 @@ const Index = () => {
           </p>
         </section>
 
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Сколько это стоит?
+          </h2>
+          <div className="bg-gray-50 p-8 rounded-lg mb-6">
+            <p className="text-2xl font-bold text-gray-900 mb-6">
+              Внедрение и 3 месяца обслуживания Системы "Товарный Снайпер": 60 000 рублей
+            </p>
+            <p className="text-lg text-gray-900 font-semibold mb-4">Что входит:</p>
+            <ul className="space-y-3 mb-8 text-lg text-gray-700 leading-relaxed ml-6">
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>ABC-анализ товарной матрицы</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Авторская настройка "Гипер-Фида"</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Создание и запуск гиперсегментированных кампаний</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>3 месяца ведения с еженедельными отчётами и ежемесячными созвонами</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Бонус №1: Дашборд "E-com Штурвал" (ценность 25 000 руб.)</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Бонус №2: Стратегия "Следующий Уровень" (ценность 30 000 руб.)</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Бонус №3: Чек-лист "5-минутная Проверка" (ценность 10 000 руб.)</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Гарантия "95/5"</span>
+              </li>
+            </ul>
+            <div className="border-t border-gray-300 pt-6">
+              <p className="text-lg text-gray-700 mb-2">Общая ценность: <span className="line-through">125 000 рублей</span></p>
+              <p className="text-2xl font-bold text-gray-900">Ваша инвестиция сегодня: 60 000 рублей</p>
+            </div>
+          </div>
+
+          <div className="bg-white border-2 border-gray-300 p-8 rounded-lg">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Почему не дешевле?
+            </h3>
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              Вы можете найти фрилансера, который настроит динамические кампании за 15 000 рублей.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              Он возьмёт ваш стандартный фид. Загрузит в Директ. Нажмёт "Запустить". Отчитается: "Готово".
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              А через месяц вы увидите в отчётах ту же картину: клики на синие подушки вместо зелёных, слив бюджета на "балласт", конверсия 0.1%.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Вы сэкономите 45 000 рублей на настройке. И потеряете 150 000 рублей за три месяца на нерелевантных кликах и похороненных "чемпионах".
+            </p>
+            <p className="text-lg font-bold text-gray-900">
+              Система "Товарный Снайпер" окупает себя тем, что не тратит лишнего.
+            </p>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Итак, у вас есть выбор
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <strong>Первый вариант</strong> - оставить всё как есть. Продолжать работать с подрядчиками, которые загружают ваш стандартный фид и надеются на "умные алгоритмы". Смотреть, как бюджет утекает на нерелевантные клики. Гадать, почему конверсия не растёт.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <strong>Второй вариант</strong> - попробовать разобраться самому. Изучить, как работают фиды, динамические кампании, ABC-анализ. Потратить несколько месяцев на эксперименты. Возможно, набить те же шишки, которые я уже набил на 200+ проектах.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <strong>Третий вариант</strong> - внедрить Систему "Товарный Снайпер" и получить управляемую машину продаж, которая работает по принципу "Зелёной Подушки". Где каждый клик ведёт на нужный товар. Где бюджет автоматически перетекает к прибыльным позициям. Где вы видите чёткую юнит-экономику вместо хаоса.
+          </p>
+        </section>
+
+        <section className="mb-12 bg-gray-50 p-8 rounded-lg">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Но прежде, чем принимать решение - проверьте свои кампании сами
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Я подготовил инструмент, который поможет вам за 15 минут найти критические ошибки в ваших динамических кампаниях.
+          </p>
+          <p className="text-2xl font-bold text-gray-900 mb-6">
+            "Аудит динамических кампаний за 15 минут: 7 критических ошибок, которые сливают ваш бюджет"
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Это PDF-чеклист с пошаговыми инструкциями и скриншотами. Вы открываете свой рекламный кабинет, следуете инструкции шаг за шагом - и видите, где именно теряете деньги.
+          </p>
+          <p className="text-lg text-gray-900 font-semibold mb-4">Что вы узнаете:</p>
+          <ul className="space-y-3 mb-6 text-lg text-gray-700 leading-relaxed ml-6">
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span>Какой процент кликов идёт на нерелевантные товары</span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span>Сколько бюджета съедает "балласт" из группы C</span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span>Где алгоритм Директа обучился на мусорных данных</span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span>Какие "чемпионы" недополучают показов</span>
+            </li>
+          </ul>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Это бесплатно. Это ни к чему не обязывает. Это даст вам ясность - даже если вы никогда не станете моим клиентом.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Как получить чеклист?
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Подпишитесь на мой Telegram-канал и заберите PDF файл.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            В канале я также делюсь:
+          </p>
+          <ul className="space-y-3 mb-8 text-lg text-gray-700 leading-relaxed ml-6">
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span>Разборами ошибок в настройке динамических кампаний</span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span>Кейсами из практики (без воды, только цифры)</span>
+            </li>
+            <li className="flex items-start">
+              <span className="mr-3">•</span>
+              <span>Новостями и обновлениями Директа, которые влияют на e-commerce</span>
+            </li>
+          </ul>
+        </section>
+
+        <section className="mb-12 bg-gray-900 text-white p-8 rounded-lg">
+          <h3 className="text-2xl font-bold mb-6">
+            Важно: я беру в работу не больше 2 новых клиентов в месяц
+          </h3>
+          <p className="text-lg leading-relaxed mb-6">
+            Система "Товарный Снайпер" требует глубокого погружения в каждый проект. Авторская настройка фида, ABC-анализ, калибровка кампаний - это не конвейер. Это ручная работа, которая даёт результат.
+          </p>
+          <p className="text-lg leading-relaxed mb-6">
+            Поэтому я физически не могу взять больше двух проектов одновременно и сохранить качество.
+          </p>
+          <p className="text-2xl font-bold mb-6">
+            На этот месяц осталось одно место.
+          </p>
+          <p className="text-lg leading-relaxed">
+            Если после изучения шаблона вы поймёте, что вам нужна Система "Товарный Снайпер" - напишите мне в Telegram. Обсудим ваш проект и решим, подходим ли мы друг другу.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Давайте подведём итог
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Вы можете продолжать платить "налог на хаос" - сливать бюджет на синие подушки вместо зелёных, хоронить своих "чемпионов" и гадать, почему реклама не работает.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Или можете сделать первый шаг - забрать бесплатный чеклист аудита и увидеть реальную картину своих кампаний.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            А дальше - решать вам.
+          </p>
+        </section>
+
         <div className="mt-16 pt-12 border-t border-gray-300">
           <div className="text-center">
             <Button 
@@ -504,10 +686,10 @@ const Index = () => {
               size="lg"
               className="bg-gray-900 hover:bg-gray-800 text-white px-12 py-6 text-lg font-semibold rounded-md transition-all"
             >
-              Получить полный гайд
+              Подписаться на канал и забрать чеклист
             </Button>
             <p className="mt-4 text-sm text-gray-600">
-              Узнайте 3 конкретных способа исправить вашу рекламу
+              Бесплатный PDF-аудит динамических кампаний за 15 минут
             </p>
           </div>
         </div>
