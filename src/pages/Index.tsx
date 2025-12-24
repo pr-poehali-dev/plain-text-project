@@ -413,6 +413,90 @@ const Index = () => {
           </div>
         </section>
 
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Что говорят клиенты
+          </h2>
+          <div className="space-y-6">
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-gray-900">
+              <p className="text-lg text-gray-700 leading-relaxed italic">
+                "Заказывал настройку. Получил заявки по нужной стоимости в первый же день. Алексей погружается в работу и предлагает рабочие варианты, что действительно ценно для бизнеса - не сливать бюджет, а получать результат."
+              </p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-gray-900">
+              <p className="text-lg text-gray-700 leading-relaxed italic">
+                "Отличный специалист своего дела, знает все нюансы Директа, делает хорошую и уникальную (чего другие не умеют) настройку рекламных кампаний, подсказывает и консультирует до и после."
+              </p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-gray-900">
+              <p className="text-lg text-gray-700 leading-relaxed italic">
+                "Охват вырос в 4 раза, стоимость конверсии стала в 2 раза ниже, чем была до нас. Рекламная кампания продемонстрировала эффективность в 2 раза выше, чем ранее созданная."
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            При заказе Системы "Товарный Снайпер" вы получаете:
+          </h2>
+          
+          <div className="space-y-8">
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Бонус №1: Персональный дашборд "E-com Штурвал" <span className="text-base font-normal text-gray-600">(ценность 25 000 руб.)</span>
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Настраиваю для вас персональный дашборд прямо внутри Яндекс.Метрики. На одном экране - 3-5 ключевых показателей: ДРР, CPO, ROMI, выручка. Понятные графики, никаких таблиц на 50 столбцов. Ваш личный "штурвал" для контроля ситуации в любой момент.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Бонус №2: Стратегия масштабирования "Следующий Уровень" <span className="text-base font-normal text-gray-600">(ценность 30 000 руб.)</span>
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Через 3 месяца совместной работы провожу отдельную стратегическую сессию. Готовлю пошаговый план: как увеличить количество заказов в 2-3 раза, сохранив или улучшив показатели рентабельности.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Бонус №3: Чек-лист "5-минутная Проверка Здоровья Кампании" <span className="text-base font-normal text-gray-600">(ценность 10 000 руб.)</span>
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Простой чек-лист из 5 пунктов. Позволяет в любой момент самостоятельно убедиться, что система работает как надо. Без погружения в дебри аналитики.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-12 bg-gray-900 text-white p-8 rounded-lg">
+          <h2 className="text-3xl font-bold mb-6">
+            Гарантия защиты вашего бюджета
+          </h2>
+          <p className="text-lg leading-relaxed mb-6">
+            Я не даю пустых обещаний про "окупаемость" и "рост продаж в 10 раз". Слишком много переменных, которые от меня не зависят - ваши цены, сайт, работа менеджеров.
+          </p>
+          <p className="text-lg leading-relaxed mb-6">
+            Вместо этого даю твёрдую, измеримую гарантию на качество своей работы.
+          </p>
+          <div className="bg-white text-gray-900 p-6 rounded-lg mb-6">
+            <h3 className="text-2xl font-bold mb-4">
+              Стандарт "Товарный Снайпер 95/5":
+            </h3>
+            <p className="text-lg leading-relaxed mb-4">
+              Минимум 95% вашего рекламного бюджета будет инвестировано в переходы по релевантным товарам. Никаких кликов на "общие категории". Никаких показов синей подушки вместо зелёной.
+            </p>
+            <p className="text-lg leading-relaxed">
+              Если по итогам месяца внутренний аудит покажет, что доля нецелевых расходов по моей вине превысила 5% - я компенсирую разницу, уменьшив стоимость обслуживания в следующем месяце.
+            </p>
+          </div>
+          <p className="text-lg leading-relaxed">
+            Это не маркетинговый трюк. Это встроенный механизм защиты ваших инвестиций.
+          </p>
+        </section>
+
         <div className="mt-16 pt-12 border-t border-gray-300">
           <div className="text-center">
             <Button 
