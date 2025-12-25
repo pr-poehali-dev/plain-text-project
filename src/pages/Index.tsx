@@ -696,9 +696,9 @@ const Index = () => {
             <Button 
               onClick={handleDownload}
               size="lg"
-              className="bg-gray-900 hover:bg-gray-800 text-white px-12 py-6 text-lg font-semibold rounded-md transition-all"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-6 text-lg font-semibold rounded-md transition-all whitespace-normal leading-tight"
             >
-              Подписаться на канал и забрать чеклист
+              Подписаться на канал<br />и забрать чеклист
             </Button>
             <p className="mt-4 text-sm text-gray-600">
               Бесплатный PDF-аудит динамических кампаний за 15 минут
