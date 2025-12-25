@@ -165,9 +165,6 @@ const Index = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Один нецелевой клик. 30-50 рублей в никуда.
           </p>
-        </section>
-
-        <section className="mb-12">
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             И здесь <strong>не спасут даже "умные" стратегии с оплатой за конверсии</strong>. Казалось бы - платишь только за заказы, какая разница, что там с кликами?
           </p>
