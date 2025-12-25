@@ -237,8 +237,8 @@ const Index = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Фид собран неправильно. И никакие "умные стратегии" и "оптимизации" не исправят эту ошибку на уровне архитектуры.
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6 font-bold text-gray-900">
-            Чтобы прекратить утечку бюджета, я создал систему «Товарный Снайпер».
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <em>Чтобы прекратить утечку бюджета, я создал систему «Товарный Снайпер».</em>
           </p>
         </section>
 
