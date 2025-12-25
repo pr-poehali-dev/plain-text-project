@@ -696,7 +696,7 @@ const Index = () => {
             <Button 
               onClick={handleDownload}
               size="lg"
-              className="bg-orange-500 hover:bg-orange-600 text-white px-8 py-6 text-lg font-semibold rounded-md transition-all whitespace-normal leading-tight"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-12 py-8 text-xl font-semibold rounded-md transition-all whitespace-normal leading-tight min-h-[120px]"
             >
               Подписаться на канал<br />и забрать чеклист
             </Button>
