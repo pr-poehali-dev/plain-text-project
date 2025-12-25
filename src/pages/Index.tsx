@@ -93,9 +93,9 @@ const Index = () => {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+          <p className="text-lg font-bold text-gray-900 mb-6">
             И, что самое неприятное…
-          </h2>
+          </p>
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
             Вы начинаете сомневаться в себе
           </h3>
@@ -219,9 +219,9 @@ const Index = () => {
         </section>
 
         <section className="mb-12">
-          <h3 className="text-2xl font-bold text-gray-900 mb-6">
+          <p className="text-lg font-bold text-gray-900 mb-6">
             Теперь вы понимаете…
-          </h3>
+          </p>
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
             Почему не работает "обычная" настройка динамических кампаний
           </h3>
