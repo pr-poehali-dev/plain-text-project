@@ -93,7 +93,7 @@ const Index = () => {
         </section>
 
         <section className="mb-12">
-          <p className="text-lg font-bold text-gray-900 mb-6">
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
             И, что самое неприятное…
           </p>
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
@@ -219,7 +219,7 @@ const Index = () => {
         </section>
 
         <section className="mb-12">
-          <p className="text-lg font-bold text-gray-900 mb-6">
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Теперь вы понимаете…
           </p>
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
