@@ -1,76 +1,311 @@
 export default function Offer() {
   return (
-    <div className="min-h-screen bg-gray-50 py-12 px-4">
-      <div className="max-w-4xl mx-auto bg-white rounded-lg shadow-lg p-8">
-        <h1 className="text-3xl font-bold text-gray-900 mb-6">
-          Публичная оферта
-        </h1>
+    <>
+      <style>{`
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
         
-        <div className="prose prose-lg max-w-none">
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              1. Общие положения
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Настоящая публичная оферта определяет условия предоставления услуг по настройке рекламы в Яндекс Директ.
-            </p>
-          </section>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Helvetica', 'Arial', sans-serif;
+            color: #1A1A1A;
+            line-height: 1.6;
+            -webkit-font-smoothing: antialiased;
+        }
+        
+        .offer-container {
+            max-width: 680px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+        
+        .hero {
+            background: #FFFFFF;
+            padding: 40px 0 50px;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+        
+        .hero-eyebrow {
+            font-size: 14px;
+            color: #666;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-bottom: 16px;
+            font-weight: 500;
+        }
+        
+        .hero h1 {
+            font-size: 32px;
+            line-height: 1.2;
+            font-weight: 700;
+            margin-bottom: 20px;
+            color: #1A1A1A;
+        }
+        
+        .hero-subtitle {
+            font-size: 18px;
+            line-height: 1.5;
+            color: #444;
+            margin-bottom: 32px;
+        }
+        
+        .cta-button {
+            display: inline-block;
+            background: #FF6B00;
+            color: #FFFFFF;
+            font-size: 18px;
+            font-weight: 600;
+            padding: 18px 40px;
+            text-decoration: none;
+            border-radius: 8px;
+            transition: background 0.3s ease;
+            text-align: center;
+            box-shadow: 0 4px 12px rgba(255, 107, 0, 0.25);
+        }
+        
+        .cta-button:hover {
+            background: #E55F00;
+        }
+        
+        .benefits {
+            background: #F8F8FC;
+            padding: 60px 0;
+        }
+        
+        .benefits h2 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 40px;
+            text-align: center;
+        }
+        
+        .benefit-item {
+            background: #FFFFFF;
+            padding: 24px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            border-left: 4px solid #FF6B00;
+        }
+        
+        .benefit-item strong {
+            display: block;
+            font-size: 18px;
+            font-weight: 600;
+            margin-bottom: 8px;
+            color: #1A1A1A;
+        }
+        
+        .benefit-item p {
+            font-size: 16px;
+            color: #444;
+            line-height: 1.6;
+        }
+        
+        .final {
+            background: #FFFFFF;
+            padding: 60px 0;
+        }
+        
+        .final h2 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-bottom: 24px;
+            text-align: center;
+        }
+        
+        .final-text {
+            font-size: 17px;
+            line-height: 1.7;
+            color: #444;
+            margin-bottom: 20px;
+        }
+        
+        .highlight-box {
+            background: #FFF4E6;
+            border: 2px solid #FF6B00;
+            border-radius: 8px;
+            padding: 24px;
+            margin: 32px 0;
+        }
+        
+        .highlight-box p {
+            font-size: 16px;
+            line-height: 1.6;
+            margin-bottom: 12px;
+        }
+        
+        .highlight-box strong {
+            color: #FF6B00;
+        }
+        
+        .cta-center {
+            text-align: center;
+            margin: 40px 0;
+        }
+        
+        .ps-text {
+            font-size: 15px;
+            color: #666;
+            text-align: center;
+            margin-top: 20px;
+        }
+        
+        footer {
+            background: #F8F8FC;
+            padding: 40px 0;
+            text-align: center;
+            font-size: 14px;
+            color: #666;
+            line-height: 1.8;
+        }
+        
+        footer a {
+            color: #FF6B00;
+            text-decoration: none;
+        }
+        
+        footer a:hover {
+            text-decoration: underline;
+        }
+        
+        @media (max-width: 640px) {
+            .hero h1 {
+                font-size: 26px;
+            }
+            
+            .hero-subtitle {
+                font-size: 16px;
+            }
+            
+            .cta-button {
+                font-size: 16px;
+                padding: 16px 32px;
+                display: block;
+                width: 100%;
+            }
+            
+            .benefits h2,
+            .final h2 {
+                font-size: 24px;
+            }
+            
+            .benefit-item {
+                padding: 20px;
+            }
+            
+            .benefit-item strong {
+                font-size: 17px;
+            }
+            
+            .benefit-item p {
+                font-size: 15px;
+            }
+        }
+      `}</style>
 
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              2. Предмет договора
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Исполнитель обязуется оказать услуги по настройке рекламных кампаний в Яндекс Директ, а Заказчик обязуется принять и оплатить эти услуги.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              3. Стоимость услуг
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Стоимость услуг определяется согласно прайс-листу, размещенному на сайте.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              4. Порядок оказания услуг
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              После оплаты услуг Заказчиком, Исполнитель приступает к настройке рекламной кампании в согласованные сроки.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              5. Права и обязанности сторон
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Исполнитель обязуется качественно выполнить работы по настройке рекламы. Заказчик обязуется предоставить необходимую информацию и доступы.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              6. Ответственность сторон
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Стороны несут ответственность за неисполнение или ненадлежащее исполнение своих обязательств в соответствии с законодательством РФ.
-            </p>
-          </section>
-
-          <section className="mb-8">
-            <h2 className="text-2xl font-semibold text-gray-800 mb-4">
-              7. Контактная информация
-            </h2>
-            <p className="text-gray-700 leading-relaxed mb-4">
-              Для связи с нами используйте контакты, указанные на главной странице сайта.
-            </p>
-          </section>
+      <section className="hero">
+        <div className="offer-container">
+          <div className="hero-eyebrow">
+            Владельцам интернет-магазинов с каталогом 1000+ товаров
+          </div>
+          
+          <h1>Почему ваш магазин сливает рекламный бюджет на синие подушки вместо зелёных?</h1>
+          
+          <p className="hero-subtitle">
+            И как за 15 минут найти "дыры" в динамических кампаниях, через которые утекают ваши деньги
+          </p>
+          
+          <a href="https://t.me/tovarniy_sniper_bot?start=check-list-audit-fid" className="cta-button">
+            ПОЛУЧИТЬ ЧЕКЛИСТ В TELEGRAM →
+          </a>
         </div>
-      </div>
-    </div>
+      </section>
+
+      <section className="benefits">
+        <div className="offer-container">
+          <h2>Что вы узнаете из чеклиста:</h2>
+          
+          <div className="benefit-item">
+            <strong>Какой процент кликов идёт на нерелевантные товары</strong>
+            <p>Когда человек ищет зелёную подушку 50х50, а ваша реклама показывает синюю 40х40. Вы платите 50 рублей за клик в никуда.</p>
+          </div>
+          
+          <div className="benefit-item">
+            <strong>Сколько бюджета съедает "балласт"</strong>
+            <p>50% товаров из вашего каталога приносят только 5% выручки, но жрут половину рекламного бюджета.</p>
+          </div>
+          
+          <div className="benefit-item">
+            <strong>Где алгоритм Директа обучился на мусорных данных</strong>
+            <p>И теперь хоронит ваши самые прибыльные товары вместо того, чтобы их продавать.</p>
+          </div>
+          
+          <div className="benefit-item">
+            <strong>Какие "чемпионы" недополучают показов</strong>
+            <p>20% товаров, которые дают 80% выручки, задушены из-за кривого товарного фида.</p>
+          </div>
+          
+          <div className="benefit-item">
+            <strong>Один технический дефект фида</strong>
+            <p>Который превращает каждый третий клик в слив бюджета, и ваш подрядчик о нём молчит.</p>
+          </div>
+          
+          <div className="benefit-item">
+            <strong>Почему клики есть, а заказов в CRM нет</strong>
+            <p>Три невидимых разрыва в цепочке "запрос-объявление-карточка", которые убивают 70% конверсии.</p>
+          </div>
+          
+          <div className="benefit-item">
+            <strong>Как остановить утечку</strong>
+            <p>И превратить хаотичный каталог в управляемую машину продаж с прозрачной юнит-экономикой.</p>
+          </div>
+        </div>
+      </section>
+
+      <section className="final">
+        <div className="offer-container">
+          <h2>Успейте получить чеклист и бонусный кейс</h2>
+          
+          <p className="final-text">
+            Вместе с чеклистом вы получите разбор реального кейса: как владелец магазина расходников для ЧПУ поднял конверсию рекламы <strong>с 0.1% до 1% за месяц</strong> без изменений на сайте.
+          </p>
+          
+          <p className="final-text">
+            Рост в 10 раз. Те же товары. Тот же сайт. Изменился только подход к настройке фида.
+          </p>
+          
+          <div className="highlight-box">
+            <p><strong>Важно:</strong> Я беру в работу не больше 2 новых проектов в месяц из-за глубокого погружения в каждый магазин.</p>
+            <p>На этот месяц осталось <strong>1 место</strong> с полным пакетом бонусов.</p>
+          </div>
+          
+          <div className="cta-center">
+            <a href="https://t.me/tovarniy_sniper_bot?start=check-list-audit-fid" className="cta-button">
+              ПОЛУЧИТЬ ЧЕКЛИСТ И КЕЙС →
+            </a>
+          </div>
+          
+          <p className="ps-text">
+            P.S. Это ни к чему не обязывает. Заставлять купить наставничество я не буду 😉
+          </p>
+        </div>
+      </section>
+
+      <footer>
+        <div className="offer-container">
+          <p>Система "Товарный Снайпер"</p>
+          <p>Контекстная реклама для интернет-магазинов</p>
+          <p style={{ marginTop: '20px' }}>
+            <a href="#">Политика конфиденциальности</a> | 
+            <a href="#">Пользовательское соглашение</a>
+          </p>
+        </div>
+      </footer>
+    </>
   );
 }
