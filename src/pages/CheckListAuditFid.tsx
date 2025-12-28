@@ -311,106 +311,240 @@ const CheckListAuditFid = () => {
           </p>
         </section>
 
-        <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            Что вы получаете, подключив Систему "Товарный Снайпер"
-          </h2>
-          <ul className="space-y-4 text-lg text-gray-700 leading-relaxed">
-            <li className="flex items-start">
-              <span className="mr-3 text-gray-400">1.</span>
-              <span>
-                <strong className="text-gray-900">Авторскую выгрузку товарного фида</strong> - где каждый вариант товара выгружен правильно, с уникальными характеристиками, изображениями и ссылками.
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-gray-400">2.</span>
-              <span>
-                <strong className="text-gray-900">ABC-анализ товарной матрицы</strong> - выявление "чемпионов", "рабочих лошадок" и "балласта". Стратегическое распределение бюджета по приоритетам.
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-gray-400">3.</span>
-              <span>
-                <strong className="text-gray-900">Настройку Яндекс.Директа</strong> под ваш фид - динамические объявления с точным таргетингом на каждый товар. Стратегии ставок, исключающие слив бюджета.
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-gray-400">4.</span>
-              <span>
-                <strong className="text-gray-900">Еженедельную оптимизацию</strong> - контроль показателей, отключение неэффективных связок, усиление прибыльных товаров.
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-gray-400">5.</span>
-              <span>
-                <strong className="text-gray-900">Прозрачную аналитику</strong> - вы видите, какие товары дают заказы, какие едят бюджет. Никакой воды - только цифры и конкретные действия.
-              </span>
-            </li>
-          </ul>
-        </section>
-
         <section className="mb-12 bg-gray-50 p-8 rounded-lg">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            Результат
+            Принцип "Зелёной Подушки" в действии
           </h2>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Реклама перестаёт быть лотереей. Вы знаете, куда идут деньги. Знаете, какие товары работают. Знаете, где резать расходы, а где - увеличивать бюджет.
+            Давайте вернёмся к нашей зелёной подушке 50х50. Как работает Система "Товарный Снайпер" на практике:
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Каждый клик ведёт на нужный товар. Конверсия растёт. Стоимость заказа падает. <span className="sm:inline block sm:mt-0 mt-4">Вы наконец можете спокойно спать, зная, что рекламный бюджет работает на вас, а не сливается в никуда.</span>
+          <div className="space-y-4 text-lg text-gray-700 border-l-4 border-gray-900 pl-6">
+            <p>Человек вводит: "зелёная подушка 50х50 купить"</p>
+            <p className="text-center text-2xl">↓</p>
+            <p>Яндекс находит в фиде отдельную позицию "Подушка декоративная зелёная 50х50"</p>
+            <p className="text-center text-2xl">↓</p>
+            <p>Видит объявление с фотографией зелёной подушки 50х50 и ценой</p>
+            <p className="text-center text-2xl">↓</p>
+            <p>Кликает, попадает в карточку зелёной подушки 50х50</p>
+            <p className="text-center text-2xl">↓</p>
+            <p>Видит именно то, что искал. Добавляет в корзину. Оформляет заказ.</p>
+          </div>
+          <p className="text-lg text-gray-700 leading-relaxed mt-6">
+            Никаких разрывов. Никаких "поищите на сайте". Точное попадание - высокая конверсия.
           </p>
         </section>
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            Кому подходит эта система
+            Результаты, которые уже получают клиенты
           </h2>
-          <ul className="space-y-4 text-lg text-gray-700 leading-relaxed">
-            <li className="flex items-start">
-              <span className="mr-3 text-gray-400">—</span>
-              <span>
-                У вас интернет-магазин с ассортиментом от 1000+ товаров.
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-gray-400">—</span>
-              <span>
-                Вы уже пробовали Яндекс.Директ, но результат не устроил.
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-gray-400">—</span>
-              <span>
-                Вы готовы инвестировать в рекламу от 100 000 рублей в месяц (меньший бюджет не даст достаточно данных для оптимизации).
-              </span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3 text-gray-400">—</span>
-              <span>
-                Вы хотите видеть прозрачную аналитику и понимать, куда идут деньги.
-              </span>
-            </li>
-          </ul>
+          <div className="bg-gray-50 p-8 rounded-lg">
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Магазин расходников и комплектующих для фрезерных станков с ЧПУ. Сложная ниша, специфический ассортимент.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              <strong>До внедрения системы:</strong> конверсия рекламного трафика - 0.1%. Из тысячи кликов - один заказ.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Как было настроено? По старинке. Ручной сбор ключей, ручное создание объявлений. Ссылки вели на категории и подкатегории. Классический "статичный подход".
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              <strong>После внедрения Системы "Товарный Снайпер":</strong> конверсия выросла до 1%.
+            </p>
+            <p className="text-3xl font-bold text-gray-900 mb-6">
+              Рост в 10 раз.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed">
+              Те же товары. Тот же сайт. Та же аудитория. Изменился только подход к рекламе.
+            </p>
+          </div>
         </section>
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            Как начать работу
+            Что говорят клиенты
           </h2>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Оставьте заявку через форму ниже. Я свяжусь с вами в течение 24 часов.
+          <div className="space-y-6">
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-gray-900">
+              <p className="text-lg text-gray-700 leading-relaxed italic">
+                "Заказывал настройку. Получил заявки по нужной стоимости в первый же день. Алексей погружается в работу и предлагает рабочие варианты, что действительно ценно для бизнеса - не сливать бюджет, а получать результат."
+              </p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-gray-900">
+              <p className="text-lg text-gray-700 leading-relaxed italic">
+                "Отличный специалист своего дела, знает все нюансы Директа, делает хорошую и уникальную (чего другие не умеют) настройку рекламных кампаний, подсказывает и консультирует до и после."
+              </p>
+            </div>
+            <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-gray-900">
+              <p className="text-lg text-gray-700 leading-relaxed italic">
+                "Охват вырос в 4 раза, стоимость конверсии стала в 2 раза ниже, чем была до нас. Рекламная кампания продемонстрировала эффективность в 2 раза выше, чем ранее созданная."
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            При заказе Системы "Товарный Снайпер" вы получаете:
+          </h2>
+          
+          <div className="space-y-8">
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Бонус №1: Персональный дашборд "E-com Штурвал" <span className="text-base font-normal text-gray-600">(ценность 25 000 руб.)</span>
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Настраиваю для вас персональный дашборд прямо внутри Яндекс.Метрики. На одном экране - 3-5 ключевых показателей: ДРР, CPO, ROMI, выручка. Понятные графики, никаких таблиц на 50 столбцов. Ваш личный "штурвал" для контроля ситуации в любой момент.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Бонус №2: Стратегия масштабирования "Следующий Уровень" <span className="text-base font-normal text-gray-600">(ценность 30 000 руб.)</span>
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Через 3 месяца совместной работы провожу отдельную стратегическую сессию. Готовлю пошаговый план: как увеличить количество заказов в 2-3 раза, сохранив или улучшив показатели рентабельности.
+              </p>
+            </div>
+
+            <div className="bg-gray-50 p-8 rounded-lg">
+              <h3 className="text-xl font-bold text-gray-900 mb-4">
+                Бонус №3: Чек-лист "5-минутная Проверка Здоровья Кампании" <span className="text-base font-normal text-gray-600">(ценность 10 000 руб.)</span>
+              </h3>
+              <p className="text-lg text-gray-700 leading-relaxed">
+                Простой чек-лист из 5 пунктов. Позволяет в любой момент самостоятельно убедиться, что система работает как надо. Без погружения в дебри аналитики.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mb-12 bg-gray-900 text-white p-8 rounded-lg">
+          <h2 className="text-3xl font-bold mb-6">
+            Гарантия защиты вашего бюджета
+          </h2>
+          <p className="text-lg leading-relaxed mb-6">
+            Я не даю пустых обещаний про "окупаемость" и "рост продаж в 10 раз". Слишком много переменных, которые от меня не зависят - ваши цены, сайт, работа менеджеров.
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            На первой встрече мы обсудим ваш бизнес, посмотрим текущие показатели рекламы, оценим потенциал системы для вашего магазина. <span className="sm:inline block sm:mt-0 mt-4">Если я увижу, что система не подходит вашему бизнесу - скажу об этом честно. Не буду тратить ваше время и деньги.</span>
+          <p className="text-lg leading-relaxed mb-6">
+            Вместо этого даю твёрдую, измеримую гарантию на качество своей работы.
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Если решим работать - я подготовлю план внедрения системы и озвучу стоимость. Сроки запуска - от 2 недель с момента согласования.
-          </p>
-          <div className="mt-12 p-8 bg-white border-2 border-orange-600 rounded-lg">
-            <h3 className="text-2xl font-bold text-gray-900 mb-6 text-center">
-              Оставьте заявку на внедрение системы
+          <div className="bg-white text-gray-900 p-6 rounded-lg mb-6">
+            <h3 className="text-2xl font-bold mb-4">
+              Стандарт "Товарный Снайпер 95/5":
             </h3>
-            <form className="space-y-4">
+            <p className="text-lg leading-relaxed mb-4">
+              Минимум 95% вашего рекламного бюджета будет инвестировано в переходы по релевантным товарам. Никаких кликов на "общие категории". Никаких показов синей подушки вместо зелёной.
+            </p>
+            <p className="text-lg leading-relaxed">
+              Если по итогам месяца внутренний аудит покажет, что доля нецелевых расходов по моей вине превысила 5% - я компенсирую разницу, уменьшив стоимость обслуживания в следующем месяце.
+            </p>
+          </div>
+          <p className="text-lg leading-relaxed">
+            Это не маркетинговый трюк. Это встроенный механизм защиты ваших инвестиций.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Сколько это стоит?
+          </h2>
+          <div className="bg-gray-50 p-8 rounded-lg mb-6">
+            <p className="text-2xl font-bold text-gray-900 mb-6">
+              Внедрение и 3 месяца обслуживания Системы "Товарный Снайпер": 60 000 рублей
+            </p>
+            <p className="text-lg text-gray-900 font-semibold mb-4">Что входит:</p>
+            <ul className="space-y-3 mb-8 text-lg text-gray-700 leading-relaxed ml-6">
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>ABC-анализ товарной матрицы</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Авторская настройка "Гипер-Фида"</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Создание и запуск гиперсегментированных кампаний</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>3 месяца ведения с еженедельными отчётами и ежемесячными созвонами</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Бонус №1: Дашборд "E-com Штурвал" (ценность 25 000 руб.)</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Бонус №2: Стратегия "Следующий Уровень" (ценность 30 000 руб.)</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Бонус №3: Чек-лист "5-минутная Проверка" (ценность 10 000 руб.)</span>
+              </li>
+              <li className="flex items-start">
+                <span className="mr-3">•</span>
+                <span>Гарантия "95/5"</span>
+              </li>
+            </ul>
+            <div className="border-t border-gray-300 pt-6">
+              <p className="text-lg text-gray-700 mb-2">Общая ценность: <span className="line-through">125 000 рублей</span></p>
+              <p className="text-2xl font-bold text-gray-900">Ваша инвестиция сегодня: 60 000 рублей</p>
+            </div>
+          </div>
+
+          <div className="bg-white border-2 border-gray-300 p-8 rounded-lg">
+            <h3 className="text-2xl font-bold text-gray-900 mb-4">
+              Почему не дешевле?
+            </h3>
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              Вы можете найти фрилансера, который настроит динамические кампании за 15 000 рублей.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              Он возьмёт ваш стандартный фид. Загрузит в Директ. Нажмёт "Запустить". Отчитается: "Готово".
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-4">
+              А через месяц вы увидите в отчётах ту же картину: клики на синие подушки вместо зелёных, слив бюджета на "балласт", конверсия 0.1%.
+            </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              Вы сэкономите 45 000 рублей на настройке. И потеряете 150 000 рублей за три месяца на нерелевантных кликах и похороненных "чемпионах".
+            </p>
+            <p className="text-lg font-bold text-gray-900">
+              Система "Товарный Снайпер" окупает себя тем, что не тратит лишнего.
+            </p>
+          </div>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Итак, у вас есть выбор
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <strong>Первый вариант</strong> - оставить всё как есть. Продолжать работать с подрядчиками, которые загружают ваш стандартный фид и надеются на "умные алгоритмы". Смотреть, как бюджет утекает на нерелевантные клики. Гадать, почему конверсия не растёт.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <strong>Второй вариант</strong> - попробовать разобраться самому. Изучить, как работают фиды, динамические кампании, ABC-анализ. Потратить несколько месяцев на эксперименты. Возможно, набить те же шишки, которые я уже набил на 200+ проектах.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            <strong>Третий вариант</strong> - внедрить Систему "Товарный Снайпер" и получить управляемую машину продаж, которая работает по принципу "Зелёной Подушки". Где каждый клик ведёт на нужный товар. Где бюджет автоматически перетекает к прибыльным позициям. Где вы видите результат в цифрах и управляете процессом.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed">
+            Выбор за вами.
+          </p>
+        </section>
+
+        <section className="mb-12">
+          <h2 className="text-3xl font-bold text-gray-900 mb-6">
+            Оставьте заявку
+          </h2>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Заполните форму ниже. Я свяжусь с вами в течение 24 часов.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            На первой встрече обсудим ваш бизнес, текущие показатели рекламы, оценим потенциал системы. <span className="sm:inline block sm:mt-0 mt-4">Если увижу, что система не подходит - скажу честно. Не трачу время на проекты, где не смогу принести результат.</span>
+          </p>
+          <div className="bg-white border-2 border-orange-600 p-8 rounded-lg">
+            <form className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-lg font-medium text-gray-900 mb-2">
                   Ваше имя
@@ -418,63 +552,64 @@ const CheckListAuditFid = () => {
                 <input
                   type="text"
                   id="name"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent text-lg"
                   placeholder="Иван"
                 />
               </div>
               <div>
-                <label htmlFor="company" className="block text-lg font-medium text-gray-900 mb-2">
-                  Название магазина / сайта
+                <label htmlFor="site" className="block text-lg font-medium text-gray-900 mb-2">
+                  Адрес вашего магазина
                 </label>
                 <input
-                  type="text"
-                  id="company"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent"
+                  type="url"
+                  id="site"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent text-lg"
                   placeholder="magazin.ru"
                 />
               </div>
               <div>
                 <label htmlFor="products" className="block text-lg font-medium text-gray-900 mb-2">
-                  Количество товаров в каталоге
+                  Примерное количество товаров
                 </label>
                 <input
                   type="text"
                   id="products"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent"
-                  placeholder="~5000"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent text-lg"
+                  placeholder="~3000"
                 />
               </div>
               <div>
                 <label htmlFor="contact" className="block text-lg font-medium text-gray-900 mb-2">
-                  Телефон или Telegram для связи
+                  Телефон или Telegram
                 </label>
                 <input
                   type="text"
                   id="contact"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:ring-2 focus:ring-orange-600 focus:border-transparent text-lg"
                   placeholder="+7 900 123-45-67 или @username"
                 />
               </div>
               <Button
-                type="submit"
+                onClick={handleDownload}
+                type="button"
                 size="lg"
-                className="w-full bg-orange-600 hover:bg-orange-700 text-white py-4 text-lg font-semibold"
+                className="w-full bg-orange-600 hover:bg-orange-700 text-white py-4 text-xl font-semibold"
               >
                 Отправить заявку
               </Button>
             </form>
-            <p className="mt-4 text-sm text-gray-600 text-center">
-              Нажимая кнопку, вы соглашаетесь с <a href="/offer" className="text-orange-600 underline">политикой обработки персональных данных</a>
+            <p className="mt-6 text-sm text-gray-600 text-center">
+              Нажимая кнопку, вы соглашаетесь с <a href="/offer" className="text-orange-600 hover:underline">политикой обработки персональных данных</a>
             </p>
           </div>
         </section>
 
-        <section className="mt-16 pt-8 border-t border-gray-300">
-          <p className="text-sm text-gray-600 text-center">
-            ИП Иванов Алексей Сергеевич | ИНН 123456789012 | ОГРНИП 987654321098765
+        <section className="mt-16 pt-8 border-t border-gray-300 text-center">
+          <p className="text-sm text-gray-600">
+            ИП Иванов Алексей Сергеевич | ИНН 123456789012 | ОГРНИП 987654321000000
           </p>
-          <p className="text-sm text-gray-600 text-center mt-2">
-            <a href="/offer" className="text-orange-600 underline">Политика конфиденциальности</a>
+          <p className="text-sm text-gray-600 mt-2">
+            <a href="/offer" className="text-orange-600 hover:underline">Политика конфиденциальности и оферта</a>
           </p>
         </section>
 
