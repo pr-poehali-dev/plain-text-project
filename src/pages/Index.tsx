@@ -688,7 +688,7 @@ const Index = () => {
             Или можете сделать первый шаг - забрать бесплатный чеклист аудита и увидеть реальную картину своих кампаний.
           </p>
           <p className="text-lg text-gray-700 leading-relaxed">
-            А дальше - решать вам.
+            Решать вам.
           </p>
         </section>
 
@@ -699,7 +699,7 @@ const Index = () => {
               size="lg"
               className="bg-orange-500 hover:bg-orange-600 text-white px-12 py-8 text-xl font-semibold rounded-md transition-all whitespace-normal leading-tight min-h-[120px]"
             >
-              Подписаться на канал<br />и забрать чеклист
+              Забрать Чек-лист
             </Button>
             <p className="mt-4 text-sm text-gray-600">
               Бесплатный PDF-аудит динамических кампаний за 15 минут
