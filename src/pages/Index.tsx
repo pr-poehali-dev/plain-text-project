@@ -2,7 +2,10 @@ import { Button } from "@/components/ui/button";
 
 const Index = () => {
   const handleDownload = () => {
-    window.scrollTo({ top: document.body.scrollHeight, behavior: 'smooth' });
+    if (window.ym) {
+      window.ym(106053828, 'reachGoal', 'got-lidmagnit');
+    }
+    window.open('https://t.me/signals_scrooges', '_blank');
   };
 
   return (
