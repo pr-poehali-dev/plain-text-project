@@ -645,29 +645,18 @@ const Index = () => {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            Как получить чеклист?
-          </h2>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Подпишитесь на мой Telegram-канал и заберите PDF файл.
-          </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            В канале я также делюсь:
-          </p>
-          <ul className="space-y-3 mb-8 text-lg text-gray-700 leading-relaxed ml-6">
-            <li className="flex items-start">
-              <span className="mr-3">•</span>
-              <span>Разборами ошибок в настройке динамических кампаний</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3">•</span>
-              <span>Кейсами из практики (без воды, только цифры)</span>
-            </li>
-            <li className="flex items-start">
-              <span className="mr-3">•</span>
-              <span>Новостями и обновлениями Директа, которые влияют на e-commerce</span>
-            </li>
-          </ul>
+          <div className="text-center">
+            <Button 
+              onClick={handleDownload}
+              size="lg"
+              className="bg-orange-500 hover:bg-orange-600 text-white px-12 py-6 text-xl font-semibold rounded-md transition-all"
+            >
+              Скачать Чек-лист
+            </Button>
+            <p className="mt-4 text-sm text-gray-600">
+              Скачивание начнется мгновенно. Бесплатный PDF-аудит динамических кампаний за 15 минут
+            </p>
+          </div>
         </section>
 
         <section className="mb-12 bg-gray-900 text-white p-8 rounded-lg">
