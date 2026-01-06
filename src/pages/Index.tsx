@@ -4,6 +4,7 @@ import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 
 const Index = () => {
   const [isImageOpen, setIsImageOpen] = useState(false);
+  const [isTableImageOpen, setIsTableImageOpen] = useState(false);
   
   const handleDownload = () => {
     if (window.ym) {
@@ -87,6 +88,17 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/files/Семья.jpg" 
               alt="Алексей с семьей"
+              className="w-full h-auto"
+            />
+          </DialogContent>
+        </Dialog>
+
+        <Dialog open={isTableImageOpen} onOpenChange={setIsTableImageOpen}>
+          <DialogContent className="max-w-4xl w-full p-0">
+            <DialogTitle className="sr-only">Пример карточки товара с вариантами</DialogTitle>
+            <img 
+              src="https://cdn.poehali.dev/files/6782072.png" 
+              alt="Пример карточки товара с вариантами"
               className="w-full h-auto"
             />
           </DialogContent>
@@ -176,6 +188,12 @@ const Index = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Как это обычно выгружают в фид? Одной строкой. Один товар - "Подушка декоративная". В описании перечислены все цвета и размеры. <span className="sm:inline block sm:mt-0 mt-4">Ссылка ведёт на общую карточку, где покупатель сам выбирает нужный вариант.</span>
           </p>
+          <img 
+            src="https://cdn.poehali.dev/files/6782072.png" 
+            alt="Пример карточки товара с вариантами"
+            className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition-opacity mb-6"
+            onClick={() => setIsTableImageOpen(true)}
+          />
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Кажется логичным. Но вот, что происходит дальше.
           </p>
