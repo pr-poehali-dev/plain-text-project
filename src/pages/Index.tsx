@@ -508,6 +508,13 @@ const Index = () => {
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               <strong>После внедрения Системы "Товарный Снайпер":</strong> конверсия выросла до 1%.
             </p>
+            <div className="mb-8">
+              <img 
+                src="https://cdn.poehali.dev/files/Кейс. Рост _ конверсии.png" 
+                alt="График роста конверсии после внедрения системы Товарный Снайпер"
+                className="w-full rounded-lg shadow-lg"
+              />
+            </div>
             <p className="text-3xl font-bold text-gray-900 mb-6">
               Рост в 10 раз.
             </p>
