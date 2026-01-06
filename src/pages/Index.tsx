@@ -224,7 +224,7 @@ const Index = () => {
             Один нецелевой клик. 30-50 рублей в никуда.
           </p>
           <img 
-            src="https://cdn.poehali.dev/files/67817793.png" 
+            src="https://cdn.poehali.dev/files/6781779.png" 
             alt="Пример нецелевого показа рекламы"
             className="w-full rounded-lg shadow-lg mb-6"
           />
