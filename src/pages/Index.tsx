@@ -488,6 +488,13 @@ const Index = () => {
             <p className="text-center text-2xl">↓</p>
             <p>Видит именно то, что искал. Добавляет в корзину. Оформляет заказ.</p>
           </div>
+          <div className="mt-8">
+            <img 
+              src="https://cdn.poehali.dev/files/6788309.png" 
+              alt="Схема работы правильного фида: запрос - объявление - карточка товара"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
           <p className="text-lg text-gray-700 leading-relaxed mt-6">
             Никаких разрывов. Никаких "поищите на сайте". Точное попадание - высокая конверсия.
           </p>
