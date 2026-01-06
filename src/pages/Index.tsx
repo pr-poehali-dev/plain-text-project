@@ -258,6 +258,13 @@ const Index = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             <strong>Ваш "чемпион" выбывает из рекламы.</strong> Не потому, что он плохо продаётся. А потому, что кривой фид не дал ему шанса.
           </p>
+          <div className="mb-8">
+            <img 
+              src="https://cdn.poehali.dev/files/6787645.png" 
+              alt="Схема работы кривого фида в Яндекс.Директ"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Оптимизация сбивается. Стратегия, которая должна была приводить покупателей, хоронит ваши лучшие товары. <span className="sm:inline block sm:mt-0 mt-4">Вы платите за конверсии, но конверсий всё меньше - потому что алгоритм обучился на мусорных данных.</span>
           </p>
