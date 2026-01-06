@@ -337,6 +337,13 @@ const Index = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Когда человек ищет "зелёная подушка 50х50" - Яндекс находит в фиде именно её. Показывает объявление с фотографией зелёной подушки 50х50. <span className="sm:inline block sm:mt-0 mt-4">Человек кликает и попадает в карточку зелёной подушки 50х50. Видит то, что искал. Добавляет в корзину.</span>
           </p>
+          <div className="mb-8">
+            <img 
+              src="https://cdn.poehali.dev/files/6787877.png" 
+              alt="Точное соответствие запроса, объявления и карточки товара"
+              className="w-full rounded-lg shadow-lg"
+            />
+          </div>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Запрос - объявление - карточка. Три звена одной цепи. Никаких разрывов.
           </p>
