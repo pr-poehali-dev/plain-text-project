@@ -108,9 +108,14 @@ const Index = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Человек искал одно, увидел другое, кликнул (вы заплатили), перешёл на сайт, не нашёл то, что хотел - ушёл.
           </p>
-          <p className="text-lg text-gray-700 leading-relaxed">
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
             И таких несовпадений - десятки. Сотни. По всему каталогу.
           </p>
+          <img 
+            src="https://cdn.poehali.dev/files/6781826.png" 
+            alt="Скриншот Яндекс.Метрики с несовпадениями запросов и показов"
+            className="w-full rounded-lg shadow-lg"
+          />
         </section>
 
         <section className="mb-12">
