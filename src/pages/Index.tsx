@@ -143,12 +143,12 @@ const Index = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Вы уже меняли исполнителей. Пробовали фрилансеров, пробовали агентства. Кто-то настраивал вручную, кто-то запускал "умные кампании". <span className="sm:inline block sm:mt-0 mt-4">Результат примерно одинаковый: первый месяц - обещания, второй - объяснения, третий - вы ищете нового подрядчика.</span>
           </p>
-        </section>
-
-        <section className="mb-12">
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             И, что самое неприятное…
           </p>
+        </section>
+
+        <section className="mb-12">
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
             Вы начинаете сомневаться в себе
           </h3>
