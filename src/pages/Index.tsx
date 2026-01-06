@@ -520,9 +520,19 @@ const Index = () => {
             <p className="text-3xl font-bold text-gray-900 mb-6">
               Рост в 10 раз.
             </p>
-            <p className="text-lg text-gray-700 leading-relaxed">
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
               Те же товары. Тот же сайт. Та же аудитория. Изменился только подход к рекламе.
             </p>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              <strong>Рекламные показатели за последние 30 дней:</strong>
+            </p>
+            <div className="mb-6">
+              <img 
+                src="https://cdn.poehali.dev/files/3145a0e7-25b9-47b2-b4d1-1603a9419306.png" 
+                alt="Рекламные показатели за последние 30 дней"
+                className="w-full rounded-lg shadow-lg"
+              />
+            </div>
           </div>
         </section>
 
