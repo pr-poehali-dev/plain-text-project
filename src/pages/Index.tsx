@@ -5,8 +5,6 @@ import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 const Index = () => {
   const [isImageOpen, setIsImageOpen] = useState(false);
   const [isTableImageOpen, setIsTableImageOpen] = useState(false);
-  const [isFeedSchemeOpen, setIsFeedSchemeOpen] = useState(false);
-  const [isTargetingOpen, setIsTargetingOpen] = useState(false);
   const [isConversionOpen, setIsConversionOpen] = useState(false);
   
   const handleDownload = () => {
@@ -265,8 +263,7 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/files/6787645.png" 
               alt="Схема работы кривого фида в Яндекс.Директ"
-              className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition-opacity"
-              onClick={() => setIsFeedSchemeOpen(true)}
+              className="w-full rounded-lg shadow-lg"
             />
           </div>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
@@ -345,8 +342,7 @@ const Index = () => {
             <img 
               src="https://cdn.poehali.dev/files/6787877.png" 
               alt="Точное соответствие запроса, объявления и карточки товара"
-              className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition-opacity"
-              onClick={() => setIsTargetingOpen(true)}
+              className="w-full rounded-lg shadow-lg"
             />
           </div>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
@@ -802,29 +798,7 @@ const Index = () => {
 
       </article>
 
-      {/* Dialogs for full-size images */}
-      <Dialog open={isFeedSchemeOpen} onOpenChange={setIsFeedSchemeOpen}>
-        <DialogContent className="max-w-[95vw] max-h-[95vh] p-2">
-          <DialogTitle className="sr-only">Схема работы кривого фида</DialogTitle>
-          <img 
-            src="https://cdn.poehali.dev/files/6787645.png" 
-            alt="Схема работы кривого фида в Яндекс.Директ"
-            className="w-full h-auto"
-          />
-        </DialogContent>
-      </Dialog>
-
-      <Dialog open={isTargetingOpen} onOpenChange={setIsTargetingOpen}>
-        <DialogContent className="max-w-[95vw] max-h-[95vh] p-2">
-          <DialogTitle className="sr-only">Точное соответствие запроса и товара</DialogTitle>
-          <img 
-            src="https://cdn.poehali.dev/files/6787877.png" 
-            alt="Точное соответствие запроса, объявления и карточки товара"
-            className="w-full h-auto"
-          />
-        </DialogContent>
-      </Dialog>
-
+      {/* Dialog for full-size image */}
       <Dialog open={isConversionOpen} onOpenChange={setIsConversionOpen}>
         <DialogContent className="max-w-[95vw] max-h-[95vh] p-2">
           <DialogTitle className="sr-only">График роста конверсии</DialogTitle>
