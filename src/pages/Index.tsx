@@ -223,6 +223,11 @@ const Index = () => {
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             Один нецелевой клик. 30-50 рублей в никуда.
           </p>
+          <img 
+            src="https://cdn.poehali.dev/files/6781779.png" 
+            alt="Пример нецелевого показа рекламы"
+            className="w-full rounded-lg shadow-lg mb-6"
+          />
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             И здесь <strong>не спасут даже "умные" стратегии с оплатой за конверсии</strong>. Казалось бы - платишь только за заказы, какая разница, что там с кликами?
           </p>
