@@ -6,6 +6,7 @@ const Index = () => {
   const [isImageOpen, setIsImageOpen] = useState(false);
   const [isTableImageOpen, setIsTableImageOpen] = useState(false);
   const [isConversionOpen, setIsConversionOpen] = useState(false);
+  const [isLetterOpen, setIsLetterOpen] = useState(false);
   
   const handleDownload = () => {
     if (window.ym) {
@@ -533,6 +534,17 @@ const Index = () => {
                 className="w-full rounded-lg shadow-lg"
               />
             </div>
+            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+              <strong>Благодарственное письмо от магазина расходников и комплектующих для фрезерных станков с ЧПУ:</strong>
+            </p>
+            <div className="mb-6">
+              <img 
+                src="https://cdn.poehali.dev/files/ЧПУ Технологии СПб - Благодарственное письмо.jpg" 
+                alt="Благодарственное письмо от магазина расходников и комплектующих для фрезерных станков с ЧПУ"
+                className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition-opacity"
+                onClick={() => setIsLetterOpen(true)}
+              />
+            </div>
           </div>
         </section>
 
@@ -808,13 +820,24 @@ const Index = () => {
 
       </article>
 
-      {/* Dialog for full-size image */}
+      {/* Dialogs for full-size images */}
       <Dialog open={isConversionOpen} onOpenChange={setIsConversionOpen}>
         <DialogContent className="max-w-[95vw] max-h-[95vh] p-2">
           <DialogTitle className="sr-only">График роста конверсии</DialogTitle>
           <img 
             src="https://cdn.poehali.dev/files/Кейс. Рост _ конверсии.png" 
             alt="График роста конверсии после внедрения системы Товарный Снайпер"
+            className="w-full h-auto"
+          />
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={isLetterOpen} onOpenChange={setIsLetterOpen}>
+        <DialogContent className="max-w-[95vw] max-h-[95vh] p-2">
+          <DialogTitle className="sr-only">Благодарственное письмо</DialogTitle>
+          <img 
+            src="https://cdn.poehali.dev/files/ЧПУ Технологии СПб - Благодарственное письмо.jpg" 
+            alt="Благодарственное письмо от магазина расходников и комплектующих для фрезерных станков с ЧПУ"
             className="w-full h-auto"
           />
         </DialogContent>
