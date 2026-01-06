@@ -1,6 +1,10 @@
 import { Button } from "@/components/ui/button";
+import { useState } from "react";
+import { Dialog, DialogContent } from "@/components/ui/dialog";
 
 const Index = () => {
+  const [isImageOpen, setIsImageOpen] = useState(false);
+  
   const handleDownload = () => {
     if (window.ym) {
       window.ym(106053828, 'reachGoal', 'got-lidmagnit');
@@ -51,19 +55,41 @@ const Index = () => {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            Меня зовут Алексей, и я создал Систему "Товарный Снайпер" специально для интернет-магазинов с большим ассортиментом
-          </h2>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Суть системы в одном предложении: если клиент ищет зелёную подушку 50х50 — он видит в рекламе именно зелёную подушку 50х50 и попадает именно в её карточку.
-          </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Не в категорию "Подушки". Не в карточку синей подушки 40х40. Точное попадание — запрос, объявление, карточка. Три звена одной цепи.
-          </p>
-          <p className="text-lg text-gray-700 leading-relaxed mb-6">
-            Это звучит очевидно. Но 9 из 10 интернет-магазинов работают иначе — и именно поэтому сливают бюджет. Через минуту вы поймёте, почему так происходит и как это исправить.
-          </p>
+          <div className="flex flex-col md:flex-row gap-8 items-start">
+            <div className="md:w-2/3 order-2 md:order-1">
+              <h2 className="text-3xl font-bold text-gray-900 mb-6">
+                Меня зовут Алексей, и я создал Систему "Товарный Снайпер" специально для интернет-магазинов с большим ассортиментом
+              </h2>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Суть системы в одном предложении: если клиент ищет зелёную подушку 50х50 — он видит в рекламе именно зелёную подушку 50х50 и попадает именно в её карточку.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Не в категорию "Подушки". Не в карточку синей подушки 40х40. Точное попадание — запрос, объявление, карточка. Три звена одной цепи.
+              </p>
+              <p className="text-lg text-gray-700 leading-relaxed mb-6">
+                Это звучит очевидно. Но 9 из 10 интернет-магазинов работают иначе — и именно поэтому сливают бюджет. Через минуту вы поймёте, почему так происходит и как это исправить.
+              </p>
+            </div>
+            <div className="md:w-1/3 order-1 md:order-2">
+              <img 
+                src="https://cdn.poehali.dev/files/Семья.jpg" 
+                alt="Алексей с семьей"
+                className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition-opacity"
+                onClick={() => setIsImageOpen(true)}
+              />
+            </div>
+          </div>
         </section>
+
+        <Dialog open={isImageOpen} onOpenChange={setIsImageOpen}>
+          <DialogContent className="max-w-4xl w-full p-0">
+            <img 
+              src="https://cdn.poehali.dev/files/Семья.jpg" 
+              alt="Алексей с семьей"
+              className="w-full h-auto"
+            />
+          </DialogContent>
+        </Dialog>
 
         <section className="mb-12 bg-gray-50 p-8 rounded-lg">
           <p className="text-lg text-gray-700 leading-relaxed mb-4">
