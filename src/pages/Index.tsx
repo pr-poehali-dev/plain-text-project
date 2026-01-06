@@ -208,32 +208,26 @@ const Index = () => {
           <h3 className="text-2xl font-bold text-gray-900 mb-6">
             Яндекс берёт этот фид и пытается подобрать товар под поисковый запрос
           </h3>
-          <div className="flex flex-col md:flex-row gap-6 mb-6">
-            <div className="md:w-2/3">
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Человек вводит: "зелёная подушка 50х50 купить".
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Яндекс смотрит в ваш фид. Видит товар "Подушка декоративная". В описании есть слово "зелёный". Есть "50х50". Формально - совпадение. <strong>Яндекс показывает объявление.</strong>
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Но какие изображение, заголовок он покажет? Первые из фида. Синяя подушка 40х40 - потому что она загружена как титульная.
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed mb-6">
-                Человек видит в рекламе синюю подушку. Он искал зелёную, но кликает - вдруг на сайте есть нужная. <strong>Вы платите за клик.</strong> <span className="sm:inline block sm:mt-0 mt-4">Он переходит на карточку, видит синюю подушку, начинает искать зелёную, не находит быстро, раздражается, уходит.</span>
-              </p>
-              <p className="text-lg text-gray-700 leading-relaxed">
-                Один нецелевой клик. 30-50 рублей в никуда.
-              </p>
-            </div>
-            <div className="md:w-1/3">
-              <img 
-                src="https://cdn.poehali.dev/files/6781779.png" 
-                alt="Пример нецелевого показа рекламы"
-                className="w-full rounded-lg shadow-lg"
-              />
-            </div>
-          </div>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Человек вводит: "зелёная подушка 50х50 купить".
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Яндекс смотрит в ваш фид. Видит товар "Подушка декоративная". В описании есть слово "зелёный". Есть "50х50". Формально - совпадение. <strong>Яндекс показывает объявление.</strong>
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Но какие изображение, заголовок он покажет? Первые из фида. Синяя подушка 40х40 - потому что она загружена как титульная.
+          </p>
+          <img 
+            src="https://cdn.poehali.dev/files/6781779.png" 
+            alt="Пример нецелевого показа рекламы"
+            className="w-1/3 float-right ml-6 mb-4 rounded-lg shadow-lg"
+          />
+          <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            Человек видит в рекламе синюю подушку. Он искал зелёную, но кликает - вдруг на сайте есть нужная. <strong>Вы платите за клик.</strong> Он переходит на карточку, видит синюю подушку, начинает искать зелёную, не находит быстро, раздражается, уходит.
+          </p>
+          <p className="text-lg text-gray-700 leading-relaxed mb-6 clear-both">
+            Один нецелевой клик. 30-50 рублей в никуда.
+          </p>
           <p className="text-lg text-gray-700 leading-relaxed mb-6">
             И здесь <strong>не спасут даже "умные" стратегии с оплатой за конверсии</strong>. Казалось бы - платишь только за заказы, какая разница, что там с кликами?
           </p>
