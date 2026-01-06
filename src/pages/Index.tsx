@@ -550,7 +550,7 @@ const Index = () => {
 
         <section className="mb-12">
           <h2 className="text-3xl font-bold text-gray-900 mb-6">
-            Что говорят клиенты
+            Что еще говорят клиенты
           </h2>
           <div className="space-y-6">
             <div className="bg-gray-50 p-6 rounded-lg border-l-4 border-gray-900">
