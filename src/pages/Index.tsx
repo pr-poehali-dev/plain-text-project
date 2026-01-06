@@ -1,6 +1,6 @@
 import { Button } from "@/components/ui/button";
 import { useState } from "react";
-import { Dialog, DialogContent } from "@/components/ui/dialog";
+import { Dialog, DialogContent, DialogTitle } from "@/components/ui/dialog";
 
 const Index = () => {
   const [isImageOpen, setIsImageOpen] = useState(false);
@@ -83,6 +83,7 @@ const Index = () => {
 
         <Dialog open={isImageOpen} onOpenChange={setIsImageOpen}>
           <DialogContent className="max-w-4xl w-full p-0">
+            <DialogTitle className="sr-only">Алексей с семьей</DialogTitle>
             <img 
               src="https://cdn.poehali.dev/files/Семья.jpg" 
               alt="Алексей с семьей"
