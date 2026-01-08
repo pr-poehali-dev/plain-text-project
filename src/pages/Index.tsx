@@ -581,7 +581,8 @@ const Index = () => {
                 <div className="text-sm text-gray-600">Возврат инвестиций</div>
               </div>
             </div>
-            <p className="text-lg text-gray-700 leading-relaxed mb-6">
+            
+            <p className="text-lg text-gray-700 leading-relaxed mb-6 mt-8">
               <strong>Благодарственное письмо от магазина расходников и комплектующих для фрезерных станков с ЧПУ:</strong>
             </p>
             <div className="mb-6">
