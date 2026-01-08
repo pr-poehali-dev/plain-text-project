@@ -895,7 +895,7 @@ const Index = () => {
         <DialogContent className="max-w-[95vw] max-h-[95vh] p-2">
           <DialogTitle className="sr-only">Рекламные показатели</DialogTitle>
           <img 
-            src="https://cdn.poehali.dev/files/3145a0e7-25b9-47b2-b4d1-1603a9419306.png" 
+            src="https://cdn.poehali.dev/files/Результаты за 30 дней.png" 
             alt="Рекламные показатели за последние 30 дней"
             className="w-full h-auto"
           />
