@@ -537,11 +537,49 @@ const Index = () => {
             </p>
             <div className="mb-6">
               <img 
-                src="https://cdn.poehali.dev/files/3145a0e7-25b9-47b2-b4d1-1603a9419306.png" 
+                src="https://cdn.poehali.dev/files/Результаты за 30 дней.png" 
                 alt="Рекламные показатели за последние 30 дней"
                 className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition-opacity"
                 onClick={() => setIsMetricsOpen(true)}
               />
+            </div>
+            <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
+              <div className="bg-white p-6 rounded-lg shadow border border-gray-200">
+                <div className="text-3xl font-bold text-gray-900 mb-2">95</div>
+                <div className="text-sm text-gray-600">Оформлено заказов</div>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow border border-gray-200">
+                <div className="text-3xl font-bold text-gray-900 mb-2">0.64%</div>
+                <div className="text-sm text-gray-600">Средняя конверсия в заказ</div>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow border border-gray-200">
+                <div className="text-3xl font-bold text-gray-900 mb-2">3.79%</div>
+                <div className="text-sm text-gray-600">Конверсия в заказ у ТОП рекламной кампании</div>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow border border-gray-200">
+                <div className="text-3xl font-bold text-gray-900 mb-2">4 113 ₽</div>
+                <div className="text-sm text-gray-600">Стоимость заказа</div>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow border border-gray-200">
+                <div className="text-3xl font-bold text-gray-900 mb-2">390 776 ₽</div>
+                <div className="text-sm text-gray-600">Рекламный бюджет (без НДС)</div>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow border border-gray-200">
+                <div className="text-3xl font-bold text-gray-900 mb-2">52 458 ₽</div>
+                <div className="text-sm text-gray-600">Средний чек</div>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow border border-gray-200">
+                <div className="text-3xl font-bold text-gray-900 mb-2">7.84%</div>
+                <div className="text-sm text-gray-600">ДРР</div>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow border border-gray-200">
+                <div className="text-3xl font-bold text-gray-900 mb-2">4 983 561 ₽</div>
+                <div className="text-sm text-gray-600">Доход</div>
+              </div>
+              <div className="bg-white p-6 rounded-lg shadow border border-gray-200">
+                <div className="text-3xl font-bold text-gray-900 mb-2">ROMI: 1175%</div>
+                <div className="text-sm text-gray-600">Возврат инвестиций</div>
+              </div>
             </div>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
               <strong>Благодарственное письмо от магазина расходников и комплектующих для фрезерных станков с ЧПУ:</strong>
