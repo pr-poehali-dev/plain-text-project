@@ -7,6 +7,7 @@ const Index = () => {
   const [isTableImageOpen, setIsTableImageOpen] = useState(false);
   const [isConversionOpen, setIsConversionOpen] = useState(false);
   const [isLetterOpen, setIsLetterOpen] = useState(false);
+  const [isMetricsOpen, setIsMetricsOpen] = useState(false);
   
   const handleDownload = () => {
     if (window.ym) {
@@ -538,7 +539,8 @@ const Index = () => {
               <img 
                 src="https://cdn.poehali.dev/files/3145a0e7-25b9-47b2-b4d1-1603a9419306.png" 
                 alt="Рекламные показатели за последние 30 дней"
-                className="w-full rounded-lg shadow-lg"
+                className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition-opacity"
+                onClick={() => setIsMetricsOpen(true)}
               />
             </div>
             <p className="text-lg text-gray-700 leading-relaxed mb-6">
@@ -845,6 +847,17 @@ const Index = () => {
           <img 
             src="https://cdn.poehali.dev/files/ЧПУ Технологии СПб - Благодарственное письмо.jpg" 
             alt="Благодарственное письмо от магазина расходников и комплектующих для фрезерных станков с ЧПУ"
+            className="w-full h-auto"
+          />
+        </DialogContent>
+      </Dialog>
+
+      <Dialog open={isMetricsOpen} onOpenChange={setIsMetricsOpen}>
+        <DialogContent className="max-w-[95vw] max-h-[95vh] p-2">
+          <DialogTitle className="sr-only">Рекламные показатели</DialogTitle>
+          <img 
+            src="https://cdn.poehali.dev/files/3145a0e7-25b9-47b2-b4d1-1603a9419306.png" 
+            alt="Рекламные показатели за последние 30 дней"
             className="w-full h-auto"
           />
         </DialogContent>
