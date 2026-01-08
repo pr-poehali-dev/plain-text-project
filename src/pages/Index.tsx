@@ -520,7 +520,7 @@ const Index = () => {
             </p>
             <div className="mb-8">
               <img 
-                src="https://cdn.poehali.dev/files/Кейс. Рост _ конверсии.png?v=2" 
+                src="https://cdn.poehali.dev/files/Кейс. Рост _ конверсии 2.png" 
                 alt="График роста конверсии после внедрения системы Товарный Снайпер"
                 className="w-full rounded-lg shadow-lg cursor-pointer hover:opacity-90 transition-opacity"
                 onClick={() => setIsConversionOpen(true)}
@@ -873,7 +873,7 @@ const Index = () => {
         <DialogContent className="max-w-[95vw] max-h-[95vh] p-2">
           <DialogTitle className="sr-only">График роста конверсии</DialogTitle>
           <img 
-            src="https://cdn.poehali.dev/files/Кейс. Рост _ конверсии.png?v=2" 
+            src="https://cdn.poehali.dev/files/Кейс. Рост _ конверсии 2.png" 
             alt="График роста конверсии после внедрения системы Товарный Снайпер"
             className="w-full h-auto"
           />
