@@ -13,7 +13,7 @@ const Index = () => {
     if (window.ym) {
       window.ym(106053828, 'reachGoal', 'got-lidmagnit');
     }
-    window.open('https://t.me/signals_scrooges', '_blank');
+    window.open('https://disk.yandex.ru/i/eYQurFrAHy6Q3Q', '_blank');
   };
 
   return (
@@ -813,7 +813,7 @@ const Index = () => {
               Скачать Чек-лист
             </Button>
             <p className="mt-4 text-sm text-gray-600">
-              Скачивание начнется мгновенно.
+              Откроется в новой вкладке
             </p>
           </div>
         </section>
@@ -861,7 +861,7 @@ const Index = () => {
               Забрать Чек-лист
             </Button>
             <p className="mt-4 text-sm text-gray-600">
-              Скачивание начнется мгновенно.
+              Откроется в новой вкладке
             </p>
           </div>
         </div>
