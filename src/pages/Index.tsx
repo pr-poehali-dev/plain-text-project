@@ -831,9 +831,18 @@ const Index = () => {
           <p className="text-2xl font-bold mb-6">
             На этот месяц осталось одно место.
           </p>
-          <p className="text-lg leading-relaxed">
+          <p className="text-lg leading-relaxed mb-6">
             Если после изучения шаблона вы поймёте, что вам нужна Система "Товарный Снайпер" - напишите мне в Telegram. Обсудим ваш проект и решим, подходим ли мы друг другу.
           </p>
+          <div className="text-center">
+            <Button 
+              onClick={() => window.open('https://t.me/avcybulya', '_blank')}
+              size="lg"
+              className="bg-white hover:bg-gray-100 text-gray-900 px-12 py-6 text-xl font-semibold rounded-md transition-all"
+            >
+              Написать в Telegram
+            </Button>
+          </div>
         </section>
 
         <section className="mb-12">
@@ -852,17 +861,28 @@ const Index = () => {
         </section>
 
         <div className="mt-16 pt-12 border-t border-gray-300">
-          <div className="text-center">
-            <Button 
-              onClick={handleDownload}
-              size="lg"
-              className="bg-orange-500 hover:bg-orange-600 text-white px-12 py-6 text-xl font-semibold rounded-md transition-all"
-            >
-              Забрать Чек-лист
-            </Button>
-            <p className="mt-4 text-sm text-gray-600">
-              Откроется в новой вкладке
-            </p>
+          <div className="text-center space-y-6">
+            <div>
+              <Button 
+                onClick={handleDownload}
+                size="lg"
+                className="bg-orange-500 hover:bg-orange-600 text-white px-12 py-6 text-xl font-semibold rounded-md transition-all"
+              >
+                Забрать Чек-лист
+              </Button>
+              <p className="mt-4 text-sm text-gray-600">
+                Откроется в новой вкладке
+              </p>
+            </div>
+            <div>
+              <Button 
+                onClick={() => window.open('https://t.me/avcybulya', '_blank')}
+                size="lg"
+                className="bg-gray-900 hover:bg-gray-800 text-white px-12 py-6 text-xl font-semibold rounded-md transition-all"
+              >
+                Написать в Telegram
+              </Button>
+            </div>
           </div>
         </div>
 
